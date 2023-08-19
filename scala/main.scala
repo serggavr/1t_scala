@@ -42,15 +42,6 @@
 
     return s"${ratio} %"
 
-  // def checkArrSalaryRatio(salaryArr: List[Int], meanSalary: Double): String =
-  //   var report = "salary ratio \n"
-  //   for (salary <- salaryArr)
-  //     report += s"${salaryRatio(salary, meanSalary)} \n"
-
-  //   return report
-
-  // println(s"c.) ${checkArrSalaryRatio(salaryArr , salaryMean(salaryArr))}" )
-
   var salaryArr = List(100.0, 150.0, 200.0, 80.0, 120.0, 75.0)
   println(s"c.) ${salaryRatio(employeeSalary, salaryMean(salaryArr))}")
 
